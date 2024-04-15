@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100%;
+    background-image: url("borsa.png");
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+#container{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.701);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+h2{
+    color:black;
+    font-size: 20px;
+    
+    
+
+}
+
+#convertisseur{
+    height: 30px;  
+
+}
+
+.msg{
+    
+    font-size: 18px;
+    color: black;
+}
